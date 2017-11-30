@@ -1,0 +1,200 @@
+body{
+    background-image: url("https://newevolutiondesigns.com/images/freebies/black-white-background-1.jpg")
+}
+.comments{
+
+  padding-left: 1em;
+  padding-right: 1em;
+  float: right;
+  background-color: #FFFFFF;
+  border-radius: 1em;
+}
+.comments:hover{
+  color: #000000;
+  background-color: #000000;
+}
+
+.wrapper {
+    margin-top: 2em;
+    width: 80%;
+    max-width: 550px;
+    margin: 0 auto;
+    word-break: break-all;
+}
+nav{
+  border: 1px solid red;
+  border-style: hidden;
+  height:calc(100%-6em);
+}
+.homebutton{
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 8em;
+  height: 2em;
+  padding-top: 2px;
+  background-color: #FFFFFF;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  float:left;
+
+  color:#000000;
+}
+.homebutton:hover{
+  background-color: #000000;
+}
+.blogbutton{
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 8em;
+  height: 2em;
+  padding-top: 2px;
+  background-color: #FFFFFF;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  clear:both;
+  display: inline-block;
+  color:#000000;
+}
+.blogbutton:hover{
+  background-color: #000000;
+}
+.commentbutton{
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 4px;
+  width: 8em;
+  height: 2em;
+  padding-top: 2px;
+  background-color: #FFFFFF;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  float:left;
+  display: inline-block;
+  color:#000000;
+}
+.commentbutton:hover{
+  background-color: #000000;
+}
+a{
+  color:#000000;
+}
+a:hover{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+fieldset{
+  float: left;
+  word-wrap: break-word;
+  display: inline-block;
+}
+.fieldset{
+  margin-top: 2em;
+  color: #FFFFFF;
+  word-wrap: break-word;
+  display: inline-block;
+}
+h2{
+  border-radius: 3px;
+  width: calc(100%-12.5em);
+  background-color: rgba(0,0,0,0.4);
+  color:#FFFFFF;
+  height:calc(100%-3em);
+}
+
+h3{
+  color:#FFFFFF;
+}
+.ourblogs {
+  border: solid red;
+  border-style: hidden;
+  overflow: hidden;
+  font-size: 20px;
+  border-radius: 3px;
+  width: calc(100%-40em);
+  background-color: rgba(0,0,0,0.3);
+  color:#FFFFFF
+}
+
+img{
+  max-width: 80%;
+  height: auto;
+}
+
+
+label{
+  font-size: 25px;
+  color:#FFFFFF;
+}
+#blog{
+  border-radius: 1em;
+  background-color: white;
+  width: 30em;
+  height: 15em;
+  resize: none;
+  overflow: hidden;
+}
+.form-name{
+  border-radius: 1em;
+  border-color: #FFFFFF;
+}
+
+.submit{
+  height:40px;
+  weight:40px;
+  width: 20%;
+  background-color: #FFFFFF;
+  border:2px solid #000000;
+  border-radius: 2em;
+  color:#000000;
+}
+
+.submit:active {
+  background-color: #000000;
+  color:#FFFFFF;
+}
+
+
+.gif{
+  height: calc(100%-250px);
+  width: calc(100%-484px);
+  border: calc(100%-1px) solid red;
+  border-style: hidden;
+}
+.links{
+  border-radius: 2em;
+  width: calc(100%-15em);
+  background-color: rgba(255,255,255,0.2)
+
+}
+.blogs{
+  border-radius: 1em;
+  border: calc(100%-1px) solid #FFFFFF;
+  width: calc(100%-34em);
+  height: calc(100%-15em);
+}
+ul{
+  list-style-type: none;
+}
+li a{
+  color: #FFFFFFFF;
+  font-size: 25px;
+}
+li a:hover{
+  color: #000000;
+  font-size: 25px;
+}
+
+.errors {
+  color:rgba(187,37,37);
+  background-color: rgba(249,31,31,0.2);
+  padding-top: 10px;
+  border-radius: 1em;
+  border-width: calc(100%-1px);
+  border: calc(100%-1px) solid red;
+  margin-bottom: 10px;
+}
