@@ -1,7 +1,7 @@
 body{
     background-image: url("https://newevolutiondesigns.com/images/freebies/black-white-background-1.jpg")
 }
-.comments{
+/*.comments{
 
   padding-left: 1em;
   padding-right: 1em;
@@ -12,7 +12,7 @@ body{
 .comments:hover{
   color: #000000;
   background-color: #000000;
-}
+}*/
 
 .wrapper {
     margin-top: 2em;
@@ -60,7 +60,7 @@ nav{
 .blogbutton:hover{
   background-color: #000000;
 }
-.commentbutton{
+/*.commentbutton{
   text-align: center;
   border: 2px solid white;
   border-radius: 4px;
@@ -76,7 +76,7 @@ nav{
 }
 .commentbutton:hover{
   background-color: #000000;
-}
+}*/
 a{
   color:#000000;
 }
@@ -145,7 +145,7 @@ label{
 
 .submit{
   height:40px;
-  weight:40px;
+  /*weight:40px;*/
   width: 20%;
   background-color: #FFFFFF;
   border:2px solid #000000;

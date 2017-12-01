@@ -56,9 +56,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="blogbutton">
                 <a href="../pages/Blog.php">Be a blogger</a>
             </div>
-            <div class="commentbutton">
+            <!--<div class="commentbutton">
                 <a href="../pages/comment.php">write a comment </a>
-            </div>
+            </div>-->
           </nav>
         <fieldset>
         <h2>Write your story</h2>
@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <label for="blog">Your blog:</label><br>
             <textarea id="blog" name="blog" placeholder="Expand this site with your words!"></textarea>
           </fieldset>
-            <input class="submit" type="submit" value="Send">
+            <input name ="blogsend"class="submit" type="submit" value="Send">
             <?php
             if (!empty($errors)) { ?>
             <div class="errors">

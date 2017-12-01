@@ -1,5 +1,5 @@
 <?php
-$eingabe= [];
+/*$eingabe= [];
 $errors = [];
 
 $comment = "";
@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 }
  ?>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -53,7 +53,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <fieldset>
       <h2>State your opinion</h2>
           <label for="blogs">Choose your Blog:</label><br>
-          <input class="checkbox" type="checkbox">
+          <input class="radio" type="radio" name="Blog01" value="Blog01"><p>iuaduha</p>
+
           <label for="comment">Your comment:</label><br>
           <textarea id="blog" name="comment" placeholder="write something"></textarea>
         </fieldset>
